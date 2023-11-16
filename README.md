@@ -1,1 +1,1 @@
-# Wishbone
+# Landing page 'Wishbone+Partners'
