@@ -390,18 +390,17 @@ footer {
     .bar__links {
         position: absolute;
         top: 80px;
-        translate: 350% 0;
-        visibility: hidden;
+        display: none;
         flex-direction: column;
         background-color: #FFF;
         width: 280px;
         height: 400px;
-        transition: .5s;
+        border-radius: 8px;
     }
 
     .burger-checkbox:checked ~ .bar__links {
         translate: 208% 0;
-        visibility: visible;
+        display: flex;
     }
 
 
