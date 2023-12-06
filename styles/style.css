@@ -383,8 +383,29 @@ footer {
 }
 
 @media screen and (min-width:375px) and (max-width:576px) {
+    html {
+        font-size: 18px;
+    }
+
     .bar__links {
-        display: none;
+        position: absolute;
+        top: 80px;
+        translate: 350% 0;
+        flex-direction: column;
+        background-color: #FFF;
+        width: 280px;
+        height: 400px;
+        transition: .5s;
+    }
+
+    .burger-checkbox:checked ~ .bar__links {
+        translate: 208% 0;
+    }
+
+
+
+    .bar__btn.main {
+        width: 165px;
     }
 
     .burger-checkbox {
@@ -432,5 +453,15 @@ footer {
 
     .bar__logo {
         margin: 0 auto;
+    }
+
+    .block-6__btnblack {
+        width: 150px;
+    }
+
+    .block-6__btn.textlink, .block-8__btn.textlink {
+        width: 190px;
+        padding: 0;
+        text-align: center;
     }
 }
