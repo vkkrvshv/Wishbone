@@ -391,6 +391,7 @@ footer {
         position: absolute;
         top: 80px;
         translate: 350% 0;
+        visibility: hidden;
         flex-direction: column;
         background-color: #FFF;
         width: 280px;
@@ -400,6 +401,7 @@ footer {
 
     .burger-checkbox:checked ~ .bar__links {
         translate: 208% 0;
+        visibility: visible;
     }
 
 
