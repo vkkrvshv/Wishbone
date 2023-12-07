@@ -58,7 +58,7 @@ a {
     max-height: 720px;
     background: #ECE7E4;
     display: flex;
-    gap: 10%;
+    gap: 20%;
     margin: 0 auto 61px auto;
     flex-shrink: 0;
 }
@@ -468,7 +468,7 @@ footer {
     }
 
     .block-1__text {
-        padding: 80px 20px;
+        padding: 80px 40px;
         height: auto;
         max-width: 600px;
     }
@@ -666,11 +666,13 @@ footer {
     .block-8 {
         padding: 5% 2%;
         flex-direction: column;
+        justify-content: center;
         gap: 20px;
     }
 
     .block-8__left {
         margin: 40px auto 0 auto;
+        text-align: center;
     }
 
     footer {
